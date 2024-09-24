@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: #ffff;
+
+}
+.nav .logo img{
+    object-fit: contain;
+    max-width: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 0px 8px;
+}
+nav .action{
+    display: flex;
+    margin: 10px 20px;
+
+}
+nav .action .join{
+    background-color: red;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 10px;
+
+}
+nav .action .join:hover{
+    background-color:#fff;
+    color: #222;
+    transition: 0.8ms;
+}
+nav .action .sign{
+    background-color: transparent;
+    color: #fff;
+    padding: 2px 4px;
+    border: 1px solid #fff;
+}
+nav .action .sign:hover{
+    background-color:#5a5858;
+    color: #fff;
+    transition: 0.8ms;
+}
+.banner{
+    background: linear-gradient(90deg,#181818 0,hsla(0,0%,9%,.987) 0%,hsla(0,0%,9%,.951) 1.2%,hsla(0,0%,9%,.896) 1.5%,hsla(0,0%,9%,.825) 2%,hsla(0,0%,9%,.741) 1.5%,hsla(0,0%,9%,.648) 5%,hsla(0,0%,9%,.55) 4%,hsla(0,0%,9%,.45) 5%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 13.2%,hsla(0,0%,9%,.104) 23.5%,hsla(0,0%,9%,.049) 10.9%,hsla(0,0%,9%,.013) 10.38%,hsla(0,0%,9%,0)), url(https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXXVzl-OAKKW8Nkzq8rSsNYZQaV4oqrNtlQ3oqfLHP_7rWlj2vdgfKYHF4pLBQX2lLX7yr3xEDWr8eLVXlKhHHejVoFyoAylbjn0.jpg?r=f6a);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.box{
+    border: 1px solid #a3a3a3;
+    padding: 4px 8px;
+}
+.p1{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0px;
+    line-height: 22px;
+    max-width: 45%;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;
+    max-width: 70%;
+}
+.bannercontent{
+    padding: 10% 10%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    padding: 10px 0px;
+}
+.bannercontent .bannertitle h3{
+    font-size: 100%;
+    padding: 10px 0px;
+    color: #a3a3a3;
+}
+
+.bannercontent .bannertitle span{
+    padding: 0px 5px;
+}
+.use .side{
+    color: #a3a3a3;
+    padding: 10px 0px;
+}
